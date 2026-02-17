@@ -38,11 +38,9 @@ To do so, simply run (requires [Nix](https://nixos.org/download.html))
 ## Install
 
 ```
-git clone https://github.com/siduck/st.git
-cd st
-(change the compiler if you cant use c99 to compile: sed -i 's/^#\ CC\ =\ c99/CC=gcc/' config.mk)
-sudo make install
-xrdb merge pathToXresourcesFile
+git clone https://github.com/siduck/st.t](https://github.com/Elpepesaurio44/Terminal-st-minecraft.git
+cd Terminal-st-minecraft
+chmod +x install_st.sh
 ```
 
 (note : put the xrdb merge command in your wm's autostart or similar)
@@ -53,8 +51,7 @@ Add `st.url = "github:siduck/st";` to your inputs and install `inputs.st.package
 
 ## Fonts
 
-- Install JetbrainsMono Mono Nerd Font or any nerd font from [here](https://www.nerdfonts.com/font-downloads)
-
+- Install  Monocraft
 ## Patches:
 
 - Ligatures
